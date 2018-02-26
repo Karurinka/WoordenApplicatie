@@ -1,8 +1,0 @@
-
-ysquid:S1450"XRemove the "aantalSet" field and declare it as a local variable in the relevant methods.(¤ÕÖÄıÿÿÿÿ8Ö§Ïíœ,
-…squid:S1488"dImmediately return this expression instead of assigning it to the temporary variable "returnString".(‰½ã¥úÿÿÿÿ8á¢¿îœ,
-usquid:S1450"YRemove the "sorteerSet" field and declare it as a local variable in the relevant methods.(ªÃõ8¹µ€ïœ,
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(İÄ±8á¢¿îœ,
-Esquid:S1068")Remove this unused "words" private field.(‡€üŞ8Õûíœ,
-Asquid:S2116"%Use "Arrays.toString(array)" instead.(İÄ±8Ÿ‹ûîœ,

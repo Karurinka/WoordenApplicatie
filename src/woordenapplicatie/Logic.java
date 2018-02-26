@@ -1,23 +1,30 @@
 package woordenapplicatie;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 import java.util.*;
 
-public class Logic implements ILogic, Comparator<String>
+public class Logic implements ILogic
 {
-    private HashSet aantalSet;
-    private TreeSet<String[]> sorteerSet;
-    private String words;
-    private String[] allWords;
 
-    public Logic(String words)
+    public String[] splitString(String input) // O(N^2)
     {
-        this.words = words;
-        allWords = splitString(words.toLowerCase());
+        return input.toLowerCase().split("[,\n ]+"); // O(N^2)
     }
 
-    private String[] splitString(String string)
+    public List<String> getList(String input) // O(N + N^2)
     {
-        return string.split("[,\n ]+");
+        return Arrays.asList(splitString(input)); // O(N + N^2)
+    }
+
+    private TreeSet<String> getTreeSet(String input) // O(log(N) + 1 + N^2)
+    {
+        return new TreeSet<String>(getList(input)); // O(log(N) + 1 + N^2)
+    }
+
+    private HashSet<String> getHashSet(String input) // O(N + N^2+ 1)
+    {
+        return new HashSet<>(getList(input)); // O(1 + N^2+ 1)
     }
 
     /**
@@ -26,52 +33,50 @@ public class Logic implements ILogic, Comparator<String>
      *
      * @return
      */
-    public String aantal()
+    @Override
+    public int aantal(String input) // O(N + N^2+ 1)
     {
-        aantalSet = new HashSet(Arrays.asList(allWords));
-
-        String returnString = "Totaal aantal woorden: " + allWords.length + "\n" + "Aantal verschillende woorden: " + aantalSet.size();
-        return returnString;
-    }
-
-    public String sorteer()
-    {
-        sorteerSet = new TreeSet<>();
-        Arrays.sort(allWords, Collections.reverseOrder());
-        sorteerSet.add(allWords);
-
-        System.out.println(allWords.toString());
-
-        return "";
-    }
-
-    public String frequentie()
-    {
-        HashMap<String, Integer> frequency = new HashMap<>();
-        for (String s : allWords)
-        {
-            if (frequency.containsKey(s))
-            {
-                frequency.replace(s, frequency.get(s) + 1);
-
-            }
-            else
-            {
-                frequency.put(s, 1);
-            }
-        }
-
-        return "";
-    }
-
-    public String concordantie()
-    {
-        return "";
+        return getHashSet(input).size(); // O(1 + N^2+ 1)
     }
 
     @Override
-    public int compare(String o1, String o2)
+    public List<String> sorteer(String input)// O(1 + N^2 + N)
     {
-        return 0;
+        List<String> sortedString = new LinkedList<>(); // O(1)
+        sortedString.addAll(getTreeSet(input).descendingSet());// O(N^2 + N)
+        return sortedString;
+    }
+
+    @Override
+    public SortedSet<Map.Entry<String, Integer>> frequentie(String input)
+    {
+        List<String> frequencyList = getList(input); // O(N^2)
+        HashSet<String> hashSet = new HashSet<>(frequencyList);// O(N)
+
+        SortedSet<Map.Entry<String, Integer>> sortedSet = new TreeSet<>((e1, e2) ->
+        {
+            int i = e1.getValue().compareTo(e2.getValue());
+            return i != 0 ? i : 1;
+        }); // O(1)
+        hashSet.forEach(string -> sortedSet.add(new AbstractMap.SimpleEntry<>(string, Collections.frequency(frequencyList, string))));
+        return sortedSet;
+    }
+
+    @Override
+    public Map<String, Set<Integer>> concordantie(String input)
+    {
+        Map<String, Set<Integer>> map = new HashMap<>(); // O(1)
+        String[] lines = input.split("\n+"); // O(N^2)
+
+        for (int i = 0; i < lines.length; i++)
+        {
+            String line = lines[i];
+
+            for (String word : line.split(" "))
+            {
+                map.computeIfAbsent(word, k -> new HashSet<>()).add(i + 1); // O(3)
+            }
+        }
+        return map;
     }
 }

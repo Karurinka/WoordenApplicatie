@@ -1,6 +1,0 @@
-
-ysquid:S1192"XDefine a constant instead of duplicating this literal "Een, twee, drie, vier\n" 5 times.(“áíãøÿÿÿÿ8åÿÑíœ,
-Vsquid:S1191"5Use classes from the Java API instead of Sun classes.(ô¢Ùúÿÿÿÿ8åÿÑíœ,
-psquid:S1450"TRemove the "words" field and declare it as a local variable in the relevant methods.(‡€üŞ8åÿÑíœ,
-~squid:UselessImportCheck"PRemove this unused import 'com.sun.xml.internal.bind.v2.runtime.reflect.Lister'.(ô¢Ùúÿÿÿÿ8åÿÑíœ,
-usquid:S1192"TDefine a constant instead of duplicating this literal "Hoedje van papier\n" 3 times.(ìıóŞøÿÿÿÿ8åÿÑíœ,
