@@ -44,6 +44,10 @@ public class WoordenController implements Initializable
     private Button btConcordantie;
     @FXML
     private TextArea taOutput;
+    @FXML
+    private Button btnTinyTest;
+    @FXML
+    private Button btnBigTest;
 
     @Override
     public void initialize(URL location, ResourceBundle resources)
@@ -58,8 +62,7 @@ public class WoordenController implements Initializable
      */ private void aantalAction(ActionEvent event)
     {
         String input = taInput.getText();
-        taOutput.setText("Totaal aantal woorden: " + logic.splitString(input).length + "\n"+
-        "Aantal verschillende woorden: " + logic.aantal(input));
+        taOutput.setText("Totaal aantal woorden: " + logic.splitString(input).length + "\n" + "Aantal verschillende woorden: " + logic.aantal(input));
     }
 
     @FXML
@@ -92,6 +95,38 @@ public class WoordenController implements Initializable
 
         logic.concordantie(taInput.getText()).forEach((string, integers) -> stringBuilder.append(string).append(" ").append(Arrays.toString(integers.toArray())).append(String.format("%n")));
         taOutput.setText(stringBuilder.toString());
+    }
+
+    @FXML
+    private void executeTinyTest()
+    {
+        taInput.setText(tinyTest());
+    }
+
+    @FXML
+    private void executeBigTest()
+    {
+        taInput.setText(bigTest());
+    }
+
+    private String tinyTest()
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < 50; i++)
+        {
+            stringBuilder.append(DEFAULT_TEXT).append(System.lineSeparator()).append(System.lineSeparator());
+        }
+        return stringBuilder.toString();
+    }
+
+    private String bigTest()
+    {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < 14705; i++)
+        {
+            stringBuilder.append(DEFAULT_TEXT).append(System.lineSeparator()).append(System.lineSeparator());
+        }
+        return stringBuilder.toString();
     }
 
 }

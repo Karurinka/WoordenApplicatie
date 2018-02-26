@@ -14,12 +14,14 @@
                <children>
                   <Label text="Input" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0" />
                   <TextArea fx:id="taInput" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="30.0" />
-                  <VBox spacing="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0">
+                  <VBox layoutX="521.0" layoutY="8.0" spacing="10.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="8.0">
                      <children>
                         <Button fx:id="btAantal" mnemonicParsing="false" onAction="#aantalAction" prefHeight="26.0" prefWidth="103.0" text="Aantal" />
                         <Button fx:id="btSorteer" mnemonicParsing="false" onAction="#sorteerAction" prefHeight="26.0" prefWidth="101.0" text="Sorteer" />
                         <Button fx:id="btFrequentie" layoutX="204.0" mnemonicParsing="false" onAction="#frequentieAction" prefHeight="26.0" prefWidth="102.0" text="Frequentie" />
                         <Button fx:id="btConcordantie" layoutX="306.0" mnemonicParsing="false" onAction="#concordatieAction" prefHeight="29.0" prefWidth="102.0" text="Concordantie" />
+                        <Button fx:id="btnTinyTest" mnemonicParsing="false" onAction="#executeTinyTest" prefHeight="29.0" prefWidth="102.0" text="Tiny Test" />
+                        <Button fx:id="btnBigTest" mnemonicParsing="false" onAction="#executeBigTest" prefHeight="29.0" prefWidth="102.0" text="Big Test" />
                      </children>
                   </VBox>
                </children>
