@@ -1,7 +1,5 @@
 package woordenapplicatie;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.*;
 
 public class Logic implements ILogic
@@ -17,12 +15,12 @@ public class Logic implements ILogic
         return Arrays.asList(splitString(input)); // O(N + N^2)
     }
 
-    private TreeSet<String> getTreeSet(String input) // O(log(N) + 1 + N^2)
+    public TreeSet<String> getTreeSet(String input) // O(log(N) + 1 + N^2)
     {
         return new TreeSet<String>(getList(input)); // O(log(N) + 1 + N^2)
     }
 
-    private HashSet<String> getHashSet(String input) // O(N + N^2+ 1)
+    public HashSet<String> getHashSet(String input) // O(N + N^2+ 1)
     {
         return new HashSet<>(getList(input)); // O(1 + N^2+ 1)
     }
@@ -68,7 +66,7 @@ public class Logic implements ILogic
         Map<String, Set<Integer>> map = new HashMap<>(); // O(1)
         String[] lines = input.split("\n+"); // O(N^2)
 
-        for (int i = 0; i < lines.length; i++)
+        for (int i = 0; i < lines.length; i++) //O(n)
         {
             String line = lines[i];
 

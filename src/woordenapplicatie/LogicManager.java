@@ -1,16 +1,13 @@
 package woordenapplicatie;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
+import java.util.*;
 
 
-public class ILogicTest implements ILogic
+public class LogicManager implements ILogic
 {
     private final ILogic logic;
 
-    public ILogicTest(ILogic logic)
+    public LogicManager(ILogic logic)
     {
         this.logic = logic;
     }
@@ -19,6 +16,18 @@ public class ILogicTest implements ILogic
     public String[] splitString(String input)
     {
         return logic.splitString(input);
+    }
+
+    @Override
+    public List<String> getList(String input)
+    {
+        return logic.getList(input);
+    }
+
+    @Override
+    public HashSet<String> getHashSet(String input)
+    {
+        return logic.getHashSet(input);
     }
 
     @Override

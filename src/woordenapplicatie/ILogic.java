@@ -1,13 +1,12 @@
 package woordenapplicatie;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
+import java.util.*;
 
 public interface ILogic
 {
     String[] splitString(String input);
+    List<String> getList(String input);
+    HashSet<String> getHashSet(String input);
     int aantal(String input);
     List<String> sorteer(String input);
     SortedSet<Map.Entry<String, Integer>> frequentie(String input);
