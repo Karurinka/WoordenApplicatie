@@ -1,12 +1,5 @@
 package woordenapplicatie.gui;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
 import java.net.URL;
 import java.util.*;
 
@@ -29,8 +22,32 @@ public class WoordenController implements Initializable
 
     private ILogic logic;
 
-    private static final String DEFAULT_TEXT = "Een, twee, drie, vier\n" + "Hoedje van, hoedje van\n" + "Een, twee, drie, vier\n" + "Hoedje van papier\n" + "\n" + "Heb je dan geen hoedje meer\n" + "Maak er één van bordpapier\n" + "Eén, twee, drie, vier\n" + "Hoedje van papier\n" + "\n" + "Een, twee, drie, vier\n" + "Hoedje van, hoedje van\n" + "Een, twee, drie, vier\n" + "Hoedje van papier\n" + "\n" + "En als het hoedje dan niet past\n" + "Zetten we 't in de glazenkas\n" + "Een, twee, drie, vier\n" + "Hoedje van papier";
+    private static final String DEFAULT_TEXT =
+            "Een, twee, drie, vier\n" +
+            "Hoedje van, hoedje van\n" +
+            "Een, twee, drie, vier\n" +
+            "Hoedje van papier\n" +
+            "\n" +
 
+            "Heb je dan geen hoedje meer\n" +
+            "Maak er één van bordpapier\n" +
+            "Eén, twee, drie, vier\n" +
+            "Hoedje van papier\n" + "\n" +
+            "Een, twee, drie, vier\n" +
+            "Hoedje van, hoedje van\n" +
+            "Een, twee, drie, vier\n" +
+            "Hoedje van papier\n" +
+            "\n" +
+
+            "En als het hoedje dan niet past\n" +
+            "Zetten we 't in de glazenkas\n" +
+            "Een, twee, drie, vier\n" +
+            "Hoedje van papier";
+
+    /**
+     * Alle ui elements uit het fxml bestand
+     * Deze worden in de scene builder gekoppeld aan de juiste methoden
+     */
     @FXML
     private Button btAantal;
     @FXML
@@ -87,7 +104,7 @@ public class WoordenController implements Initializable
 
     @FXML
     /**
-     *
+     * Houdt bij welk woord op welke regel staat
      */ private void concordatieAction(ActionEvent event)
     {
         StringBuilder stringBuilder = new StringBuilder();

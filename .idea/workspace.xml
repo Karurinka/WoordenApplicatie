@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb92f64a-487b-47bb-a8f8-d3274e86440f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02b431113c669fda53656af6d56f84b3e414f0e0" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WoordenApplicatie.iml" afterPath="$PROJECT_DIR$/WoordenApplicatie.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoordenApplicatie/woordenapplicatie/ILogic.class" afterPath="$PROJECT_DIR$/out/production/WoordenApplicatie/woordenapplicatie/ILogic.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoordenApplicatie/woordenapplicatie/ILogicTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/WoordenApplicatie/woordenapplicatie/Logic.class" afterPath="$PROJECT_DIR$/out/production/WoordenApplicatie/woordenapplicatie/Logic.class" />
       <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/ILogic.java" afterPath="$PROJECT_DIR$/src/woordenapplicatie/ILogic.java" />
-      <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/ILogicTest.java" afterPath="$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java" />
       <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/Logic.java" afterPath="$PROJECT_DIR$/src/woordenapplicatie/Logic.java" />
-      <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/gui/Woorden.fxml" afterPath="$PROJECT_DIR$/src/woordenapplicatie/gui/Woorden.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java" afterPath="$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java" />
       <change beforePath="$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java" afterPath="$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java" />
+      <change beforePath="$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java" afterPath="$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java" />
+      <change beforePath="$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java" afterPath="$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,41 +20,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/WoordenApplicatie$LogicTest.coverage" NAME="LogicTest Coverage Results" MODIFIED="1519738763825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>woordenapplicatie.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/WoordenApplicatie$woordenapplicatie_in_WoordenApplicatie.coverage" NAME="woordenapplicatie in WoordenApplicatie Coverage Results" MODIFIED="1519738287382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>woordenapplicatie.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/WoordenApplicatie$WoordenApplicatie.coverage" NAME="WoordenApplicatie Coverage Results" MODIFIED="1519575102414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>woordenapplicatie.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.65400594">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="LogicTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1760">
+                  <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ILogic.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ILogic.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="681">
+                  <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="47" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -69,14 +92,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/woordenapplicatie/ILogicTest.java" />
-        <option value="$PROJECT_DIR$/src/woordenapplicatie/LogicTest.java" />
-        <option value="$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java" />
         <option value="$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java" />
         <option value="$PROJECT_DIR$/src/woordenapplicatie/ILogic.java" />
-        <option value="$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java" />
-        <option value="$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java" />
+        <option value="$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java" />
         <option value="$PROJECT_DIR$/src/woordenapplicatie/Logic.java" />
+        <option value="$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java" />
       </list>
     </option>
   </component>
@@ -86,9 +106,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1132" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
@@ -107,6 +127,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,12 +170,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -161,16 +181,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="woordenapplicatie" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LogicTest">
+  <component name="RunManager" selected="JUnit.LogicTest.concordantieTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -204,31 +214,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="LogicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="woordenapplicatie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="WoordenApplicatie" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="woordenapplicatie" />
-      <option name="MAIN_CLASS_NAME" value="woordenapplicatie.LogicTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="LogicTest.aantal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -255,7 +240,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LogicTest.getHashSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicTest.concordantieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="woordenapplicatie.*" />
@@ -267,7 +252,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="woordenapplicatie" />
       <option name="MAIN_CLASS_NAME" value="woordenapplicatie.LogicTest" />
-      <option name="METHOD_NAME" value="getHashSet" />
+      <option name="METHOD_NAME" value="concordantieTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -280,7 +265,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="LogicTest.sorteer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicTest.frequentieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="woordenapplicatie.*" />
@@ -292,7 +277,57 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="woordenapplicatie" />
       <option name="MAIN_CLASS_NAME" value="woordenapplicatie.LogicTest" />
-      <option name="METHOD_NAME" value="sorteer" />
+      <option name="METHOD_NAME" value="frequentieTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LogicTest.getListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="woordenapplicatie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WoordenApplicatie" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="woordenapplicatie" />
+      <option name="MAIN_CLASS_NAME" value="woordenapplicatie.LogicTest" />
+      <option name="METHOD_NAME" value="getListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="LogicTest.sorteerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="woordenapplicatie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="WoordenApplicatie" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="woordenapplicatie" />
+      <option name="MAIN_CLASS_NAME" value="woordenapplicatie.LogicTest" />
+      <option name="METHOD_NAME" value="sorteerTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -314,31 +349,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="woordenapplicatie in WoordenApplicatie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="woordenapplicatie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="WoordenApplicatie" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="woordenapplicatie" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -391,19 +401,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LogicTest.aantal" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LogicTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LogicTest.sorteer" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.woordenapplicatie in WoordenApplicatie" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LogicTest.getHashSet" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.LogicTest.getListTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LogicTest.sorteerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LogicTest.aantal" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.LogicTest.frequentieTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LogicTest.concordantieTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LogicTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LogicTest.getHashSet" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.woordenapplicatie in WoordenApplicatie" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LogicTest.sorteer" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LogicTest.aantal" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.LogicTest.concordantieTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LogicTest.frequentieTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LogicTest.aantal" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LogicTest.sorteerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.LogicTest.getListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,117 +434,78 @@
       <workItem from="1519487784222" duration="1648000" />
       <workItem from="1519494704593" duration="381000" />
       <workItem from="1519573420279" duration="6369000" />
-      <workItem from="1519657498672" duration="146000" />
-      <workItem from="1519657696622" duration="528000" />
-      <workItem from="1519659618590" duration="14000" />
-      <workItem from="1519678348564" duration="4010000" />
-      <workItem from="1519682430720" duration="639000" />
-      <workItem from="1519683247927" duration="100000" />
-      <workItem from="1519683386709" duration="764000" />
-      <workItem from="1519733212768" duration="6113000" />
+      <workItem from="1519739855598" duration="717000" />
+      <workItem from="1519740626679" duration="918000" />
+      <workItem from="1522673931606" duration="3747000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogicTest - 2018.02.27 at 14h 18m 10s.xml">
+    <history-entry file="LogicTest - 2018.04.02 at 15h 40m 53s.xml">
       <configuration name="LogicTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogicTest - 2018.02.27 at 14h 27m 08s.xml">
-      <configuration name="LogicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicTest - 2018.02.27 at 14h 29m 35s.xml">
-      <configuration name="LogicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicTest - 2018.02.27 at 14h 31m 40s.xml">
-      <configuration name="LogicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicTest - 2018.02.27 at 14h 39m 20s.xml">
-      <configuration name="LogicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicTest - 2018.02.27 at 14h 39m 25s.xml">
-      <configuration name="LogicTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogicTest_aantal - 2018.02.27 at 14h 17m 24s.xml">
+    <history-entry file="LogicTest_aantal - 2018.04.02 at 16h 04m 40s.xml">
       <configuration name="LogicTest.aantal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LogicTest_sorteer - 2018.02.27 at 14h 26m 57s.xml">
-      <configuration name="LogicTest.sorteer" configurationId="JUnit" />
+    <history-entry file="LogicTest_concordantie - 2018.04.02 at 15h 40m 01s.xml">
+      <configuration name="LogicTest.concordantie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="woordenapplicatie_in_WoordenApplicatie - 2018.02.27 at 14h 31m 18s.xml">
-      <configuration name="woordenapplicatie in WoordenApplicatie" configurationId="JUnit" />
+    <history-entry file="LogicTest_concordantie - 2018.04.02 at 15h 41m 46s.xml">
+      <configuration name="LogicTest.concordantie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="woordenapplicatie_in_WoordenApplicatie - 2018.02.27 at 14h 31m 34s.xml">
-      <configuration name="woordenapplicatie in WoordenApplicatie" configurationId="JUnit" />
+    <history-entry file="LogicTest_concordantieTest - 2018.04.02 at 16h 08m 09s.xml">
+      <configuration name="LogicTest.concordantieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogicTest_frequentieTest - 2018.04.02 at 16h 06m 32s.xml">
+      <configuration name="LogicTest.frequentieTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogicTest_getListTest - 2018.04.02 at 16h 02m 43s.xml">
+      <configuration name="LogicTest.getListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogicTest_sorteerTest - 2018.04.02 at 16h 03m 46s.xml">
+      <configuration name="LogicTest.sorteerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogicTest_splitString - 2018.04.02 at 16h 00m 25s.xml">
+      <configuration name="LogicTest.splitString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26378000" />
+    <option name="totallyTimeSpent" value="19446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32756868" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32854208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24634655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39064088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32451677" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122395836" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3942505" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39064088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -544,40 +515,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="24" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java">
+    <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="192">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/WoordenApplicatie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="320">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
@@ -585,33 +538,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="608">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="61" lean-forward="false" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+        <state relative-caret-position="848">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="57" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/WoordenApplicatie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="320">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
@@ -619,25 +588,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
+        <state relative-caret-position="976">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="784">
           <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
           <folding />
         </state>
@@ -655,28 +624,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1768">
           <caret line="104" column="53" lean-forward="false" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/Woorden.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -700,28 +669,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="104" column="53" lean-forward="false" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/Woorden.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,9 +722,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -763,19 +730,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="79" column="41" lean-forward="false" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/Woorden.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/collections/ListChangeBuilder.java">
@@ -862,41 +831,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/TestLogic.java" />
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/scene/control/TextArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/scene/control/TextInputControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="347" column="35" lean-forward="false" selection-start-line="347" selection-start-column="35" selection-end-line="347" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="1772" column="0" lean-forward="false" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
+        <state relative-caret-position="53">
+          <caret line="3096" column="0" lean-forward="false" selection-start-line="3096" selection-start-column="0" selection-end-line="3096" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/LogicTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-2379">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -909,70 +870,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/PerformanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="116" column="16" lean-forward="false" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+        <state relative-caret-position="612">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/gui/WoordenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/LogicManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/ILogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="595">
+          <caret line="51" column="55" lean-forward="false" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/woordenapplicatie/LogicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="87" column="10" lean-forward="false" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/woordenapplicatie/Logic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="1760">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

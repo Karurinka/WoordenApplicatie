@@ -43,7 +43,7 @@ public class LogicManager implements ILogic
     }
 
     @Override
-    public SortedSet<Map.Entry<String, Integer>> frequentie(String input)
+    public List<Map.Entry<String, Integer>> frequentie(String input)
     {
         return logic.frequentie(input);
     }

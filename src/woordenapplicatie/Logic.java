@@ -46,18 +46,29 @@ public class Logic implements ILogic
     }
 
     @Override
-    public SortedSet<Map.Entry<String, Integer>> frequentie(String input)
+    public List<Map.Entry<String, Integer>> frequentie(String input) //2n^2
     {
-        List<String> frequencyList = getList(input); // O(N^2)
-        HashSet<String> hashSet = new HashSet<>(frequencyList);// O(N)
+        String[] allWords = splitString(input);
 
-        SortedSet<Map.Entry<String, Integer>> sortedSet = new TreeSet<>((e1, e2) ->
+        HashMap<String, Integer> wordFrequency = new HashMap<>();
+
+        for (String word : allWords) // 2n^2
         {
-            int i = e1.getValue().compareTo(e2.getValue());
-            return i != 0 ? i : 1;
-        }); // O(1)
-        hashSet.forEach(string -> sortedSet.add(new AbstractMap.SimpleEntry<>(string, Collections.frequency(frequencyList, string))));
-        return sortedSet;
+            if (wordFrequency.containsKey(word))
+            {
+                wordFrequency.replace(word, wordFrequency.get(word) + 1); //O(n) + O(n) = O(2n)
+            }
+            else
+            {
+                wordFrequency.put(word, 1); //O(n)
+            }
+        }
+
+        List<Map.Entry<String, Integer>> entries = new LinkedList<>(wordFrequency.entrySet()); //O(2n)
+
+        entries.sort(Comparator.comparing(Map.Entry::getValue));
+
+        return entries;
     }
 
     @Override
